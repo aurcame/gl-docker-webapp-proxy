@@ -4,7 +4,7 @@ RUN apt-get update && apt-get install --no-install-recommends --no-install-sugge
 RUN pip3 install psycopg2
 
 ENV DBUSER='DBUSER' DBPASS='DBPASS' DBNAME='DBNAME'
-ENV DBHOST='db' DBPORT='5432'
+ENV DBHOST='10.10.1.174' DBPORT='5432'
 
 ARG APPDIR='/app'
 VOLUME ${APPDIR}
