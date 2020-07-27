@@ -1,5 +1,5 @@
 # gl-docker-webapp-proxy
-Docker project. Homework2 by Evgeniy Naryshkin (aurcame)
+Docker project. by Evgeniy Naryshkin (aurcame)
 
 Environment: 3 aws nodes:
     - node1: web app 1
