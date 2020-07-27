@@ -24,7 +24,7 @@ Tasks
     Stage1/db:$ docker build ./ -t db
     Stage1/db:$ docker run  -d --name db --net mynet db
 
-Remember: some app not as good as should be: webapp trying to connect to db without waiting and retries - and just skeep trying if failed first time.
+Some app not as good as should be: webapp trying to connect to db without waiting and retries - and just skeep trying if failed first time.
 
 [Stage1 Diagram](https://github.com/ask4ua/DKN/blob/master/Practices/Section2/Stage1/DevOpsTrainig2-Stage1.png)
 
